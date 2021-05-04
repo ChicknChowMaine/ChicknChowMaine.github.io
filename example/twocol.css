@@ -1,0 +1,50 @@
+html, body {
+    
+   background-color: pink; 
+    
+}
+
+.container {
+    
+margin: auto;
+max-width: 500px;
+background-color: azure;
+    
+}
+
+.heading {
+    
+width: 100%;
+background-color: red;
+    font-size: 3cm;
+    
+}
+
+.main {
+    
+width: 100%;
+background-color: aqua;
+display: flex;
+    
+}
+
+nav {
+    
+max-width: 125px;
+max-height: 125px;
+    height: 100%;
+    background-color:aquamarine;
+    
+}
+
+.comtent {
+    
+width:100%; 
+    
+}
+
+ul {
+  
+    margin-top: 0px;
+    
+}

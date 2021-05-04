@@ -1,0 +1,42 @@
+body {
+    background-image: url(images/That%20guy.jfif); 
+    background-repeat: no-repeat; 
+    height: 100%; 
+    background-position: center; 
+    background-size: cover;
+    font-size: 0.786cm;
+    
+margin-right: auto;
+margin-left: auto;
+width: 80%;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+h2 {
+    
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 0.75cm
+}
+
+p {
+    
+    background-color: rgba(0,0,0,0.5);color: white;
+    font-size: 0.5cm;
+    
+    
+}
+
+li {
+    
+     background-color: rgba(0,0,0,0.5);color: white;
+    font-size: 0.5cm;
+    
+}
+
