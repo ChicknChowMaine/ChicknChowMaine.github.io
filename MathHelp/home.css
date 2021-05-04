@@ -1,13 +1,17 @@
-h1 {
+#title {
     
 height:100px;
-width: fill;
+width: 100%;
 text-align: center;
 background-color: #FEC5BB;
 line-height:100px;
 font-family:sans-serif;
 font-size: 48;
 border: 10px;
+cursor: default;
+position: fixed;
+margin-top: 0;
+z-index: 2;
     
 }
 
@@ -27,7 +31,6 @@ width: 250px;
 height: 100%;
 position:fixed;
 overflow: auto;
-position: absolute;
 top: 100;
 left:0;
 background-color: #FEC5BB;
@@ -79,13 +82,14 @@ text-align:center;
 font-family: roboto;
 position: relative;
 background-color: white;
+top: 120px;
     
 }
 
 peepeepoopoo {
 
 text-decoration: none;
-position:absolute;
+position: fixed;
 top: 50px;
 left: 0;
 height:50px;
@@ -94,6 +98,8 @@ font-size: 40;
 background-color: #FEC5BB;
 text-align: center;
 line-height: 50px;
+cursor: default;
+z-index: 3;
     
 }
 
