@@ -41,12 +41,13 @@ li a {
 
 text-decoration:none;
 text-align:center;
-  display: block;
-  width:100%;
-  height:50px;
-    line-height: 50px;
-  background-color:#FEC5BB;
-  color:white;
+display: block;
+width:100%;
+height:50px;
+line-height: 50px;
+background-color:#FEC5BB;
+color:white;
+white-space: nowrap;
   
 }
 
