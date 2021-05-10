@@ -1,47 +1,40 @@
 <html>
 
 <head>
-<link href="Navstyles.css" type="text/css" rel="stylesheet">
-      
-</head>
+<link href="news.css" type="text/css" rel="stylesheet">
 
-<script>    
-    
-    function toggleNav() {
- if (document.getElementById("mySidebar").style.width < "20px"){
-     document.getElementById("mySidebar").style.width = "250px";
-     document.getElementById("main").style.marginLeft = "250px";
- }
-
-    else { document.getElementById("mySidebar").style.width = "0px";
-     document.getElementById("main").style.marginLeft = "0px";
- }
+    <script>    
+   function toggleNav() {
+    if (  document.getElementById("mySidebar").style.width < "10px") {
+      document.getElementById("mySidebar").style.width = "20%";
+      document.getElementById("content").style.left = "10%";
+    }
+    else {
+      document.getElementById("mySidebar").style.width = "0%";
+      document.getElementById("content").style.left = "0%";
+    }
 }
 
-</script>
+    </script>
+</head>
     
 <body>
     
-<nav>
-    
-<ul>
+<h1  id="title">IGCSE News</h1> 
 
+<peepeepoopoo class="openbtn" onclick="toggleNav()">&#9776;</peepeepoopoo>
+    
+<ul id="mySidebar">
   <li><a href="home.html">Home</a></li>
   <li><a class="active" href="news.html">News</a></li>
   <li><a href="tips&tricks.html">Tips and Tricks</a></li>
-    
 </ul>
-
-    
-</nav>
 
 </body>
 
+<div id="content">
 
-
-
-
-
-
+  
+</div>
 
 </html>
