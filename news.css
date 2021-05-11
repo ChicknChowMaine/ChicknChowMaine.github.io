@@ -1,4 +1,4 @@
-#title {
+h1 {
     
 height:100px;
 width: 100%;
@@ -101,4 +101,5 @@ text-align: center;
 line-height: 50px;
 cursor: default;
 z-index: 3;
+
     
