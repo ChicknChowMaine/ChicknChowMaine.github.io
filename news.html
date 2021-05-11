@@ -1,9 +1,13 @@
 <html>
 
 <head>
+    
 <link href="news.css" type="text/css" rel="stylesheet">
 
-    <script>    
+<meta name="vieport" content="width=device-width, initial-scale=1">
+    
+ <script>    
+    
    function toggleNav() {
     if (  document.getElementById("mySidebar").style.width < "10px") {
       document.getElementById("mySidebar").style.width = "20%";
@@ -16,25 +20,39 @@
 }
 
     </script>
+
 </head>
     
 <body>
     
-<h1  id="title">IGCSE News</h1> 
-
-<peepeepoopoo class="openbtn" onclick="toggleNav()">&#9776;</peepeepoopoo>
+<h1>IGCSEmathhelp</h1>   
     
+    <peepeepoopoo class="openbtn" onclick="toggleNav()">&#9776;</peepeepoopoo>
+         
 <ul id="mySidebar">
   <li><a href="index.html">Home</a></li>
   <li><a class="active" href="news.html">News</a></li>
   <li><a href="tips&tricks.html">Tips and Tricks</a></li>
 </ul>
 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  </div>
+
 </body>
-
-<div id="content">
-
-    
-</div>
-
 </html>
