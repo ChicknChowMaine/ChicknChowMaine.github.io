@@ -5,8 +5,8 @@ width: 100%;
 text-align: center;
 background-color: #FEC5BB;
 line-height:15vmin;
-font-family:sans-serif;
-font-size: 48;
+font-family:"kg_defying_gravityregular";
+font-size: 65;
 border: 10px;
 cursor: default;
 position: fixed;
@@ -16,6 +16,14 @@ z-index: 2;
     left:0;
     
 }
+
+h2 {
+    
+    font-family: "kg_defying_gravityregular";
+    font-size: 40;
+    
+}
+
 
 body {
     
@@ -114,8 +122,8 @@ height: auto;
 
 .card {
   background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 1vmin;
+  margin-top: 2vmin;
   text-align: center;
   width: 75%;
   margin-left: auto;
@@ -130,12 +138,6 @@ height: auto;
     width: 100%;
     padding: 0;
   }
-}
-
-h2 {
-    
-    font-family: "kg_defying_gravity";
-    
 }
 
 #blogbody {
