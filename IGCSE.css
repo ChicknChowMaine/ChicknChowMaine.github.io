@@ -1,10 +1,10 @@
 h1 {
     
-height:100px;
+height:15vmin;
 width: 100%;
 text-align: center;
 background-color: #FEC5BB;
-line-height:100px;
+line-height:15vmin;
 font-family:sans-serif;
 font-size: 48;
 border: 10px;
@@ -17,9 +17,8 @@ z-index: 2;
 
 body {
     
-margin:0;
+margin: 0;
 background-color: beige;
-font-size: 3vmin;
     
 }
 
@@ -32,10 +31,9 @@ width: 250px;
 height: 100%;
 position:fixed;
 overflow: auto;
-top: 100;
+top: 15vmin;
 left:0;
-background-color: #FEC5BB;
-white-space: nowrap;
+background-color:#f0c7c0;
 
 }
 
@@ -43,12 +41,13 @@ li a {
 
 text-decoration:none;
 text-align:center;
-  display: block;
-  width:100%;
-  height:50px;
-    line-height: 50px;
-  background-color:#FEC5BB;
-  color:white;
+display: block;
+width:100%;
+height:50px;
+line-height: 50px;
+background-color: #f0c7c0;
+color:white;
+white-space: nowrap;
   
 }
 
@@ -84,7 +83,7 @@ text-align:center;
 font-family: roboto;
 position: relative;
 background-color: white;
-top: 120px;
+top: 18vmin;
     
 }
 
@@ -92,19 +91,19 @@ peepeepoopoo {
 
 text-decoration: none;
 position: fixed;
-top: 50px;
+top: 10vmin;
 left: 0;
-height:50px;
-width: 50px;
-font-size: 40;
+height:5vmin;
+width: 5vmin;
+font-size: 5vmin;
 background-color: #FEC5BB;
 text-align: center;
-line-height: 50px;
+line-height: 5vmin;
 cursor: default;
 z-index: 3;
     
 }
-
+    
 img {
     
     height: 175px;
@@ -123,3 +122,4 @@ cite {
     font-size: 12.5px;
     
 }
+    

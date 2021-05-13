@@ -4,18 +4,16 @@
     
 <link href="news.css" type="text/css" rel="stylesheet">
 
-<meta name="vieport" content="width=device-width, initial-scale=1">
-    
  <script>    
     
    function toggleNav() {
     if (  document.getElementById("mySidebar").style.width < "10px") {
       document.getElementById("mySidebar").style.width = "20%";
-      document.getElementById("content").style.left = "10%";
+      document.getElementById("blogbody").style.left = "10%";
     }
     else {
       document.getElementById("mySidebar").style.width = "0%";
-      document.getElementById("content").style.left = "0%";
+      document.getElementById("blogbody").style.left = "0%";
     }
 }
 
@@ -35,12 +33,8 @@
   <li><a href="tips&tricks.html">Tips and Tricks</a></li>
 </ul>
 
-<div class="blogbody">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<div id="blogbody">
+    
     <div class="card">
       <h2>The Show Must Go On!</h2>
       <h5>IGCSE examinations are a go amid rising pandemic | November 2020</h5>

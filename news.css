@@ -1,10 +1,10 @@
 h1 {
     
-height:100px;
+height:15vmin;
 width: 100%;
 text-align: center;
 background-color: #FEC5BB;
-line-height:100px;
+line-height:15vmin;
 font-family:sans-serif;
 font-size: 48;
 border: 10px;
@@ -12,14 +12,13 @@ cursor: default;
 position: fixed;
 margin:0px;
 z-index: 2;
-top: 0px;
-left:0px;
+    top:0;
+    left:0;
     
 }
 
 body {
-font-size: 3vmin;
-  font-family: "Roboto";
+    
   padding: 0px;
   background:beige;
 text-align: center
@@ -31,14 +30,14 @@ peepeepoopoo {
 
 text-decoration: none;
 position: fixed;
-top: 50px;
+top: 10vmin;
 left: 0;
-height:50px;
-width: 50px;
-font-size: 40;
+height:5vmin;
+width: 5vmin;
+font-size: 5vmin;
 background-color: #FEC5BB;
 text-align: center;
-line-height: 50px;
+line-height: 5vmin;
 cursor: default;
 z-index: 3;
     
@@ -53,7 +52,7 @@ width: 250px;
 height: 100%;
 position:fixed;
 overflow: auto;
-top: 100;
+top: 15vmin;
 left:0;
 background-color: #FEC5BB;
 white-space: nowrap;
@@ -117,10 +116,13 @@ height: auto;
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-    text-align: center;
-    width: fill;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+    transition: 0.5s;
+ position:relative;
+    height: 
 }
 
 @media screen and (max-width: 800px) {
@@ -133,5 +135,18 @@ height: auto;
 h2 {
     
     font-family: "kg_defying_gravity";
+    
+}
+
+#blogbody {
+    
+    font-size: 3vmin;
+    position: relative;
+    transition: 0.5s;
+    font-family: "Roboto";
+    width:75vw;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+    top: 15vmin;
     
 }
